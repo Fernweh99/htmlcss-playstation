@@ -1,0 +1,28 @@
+/* Root */
+:root {
+  --btn-bg-header: #363636;
+  --btn-bg-explore: #2C64E6;
+  --btn-bg-jumbotron: #CD3C10;
+  --bg-footer: #00439B;
+  --bg-ps-plus: #BEBCBB;
+  --bg-ps-now: #161C3B;
+}
+
+/* Utils */
+.cs-btn {
+
+}
+
+/* Generics */
+body {
+  height: 2000px;
+}
+
+/* Header */
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
