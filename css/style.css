@@ -12,13 +12,14 @@
 .cs-btn {
   /* TODO Remove */
   border: 1px solid black;
-  
+
   border-radius: 15px;
   padding: 5px;
 }
 
-.border {
-  border: 1px dashed darkgoldenrod;
+.row > [class^="col"] {
+  border: 1px solid darkorange;
+  min-height: 40px;
 }
 
 /* Generics */
@@ -28,6 +29,10 @@ body {
 }
 
 /* Header */
+.upper-header img {
+  height: 14px;
+}
+
 header {
   background-color: black;
   position: fixed;
@@ -48,4 +53,9 @@ header {
 
 .jumbotron img {
   width: 60%;
+}
+
+#explore-ps5 {
+  min-height: 400px;
+  background-color: #161C3B;
 }
