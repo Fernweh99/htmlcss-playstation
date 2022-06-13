@@ -10,12 +10,21 @@
 
 /* Utils */
 .cs-btn {
+  /* TODO Remove */
+  border: 1px solid black;
+  
+  border-radius: 15px;
+  padding: 5px;
+}
 
+.border {
+  border: 1px dashed darkgoldenrod;
 }
 
 /* Generics */
 body {
   height: 2000px;
+  padding-top: 106px;;
 }
 
 /* Header */
@@ -25,4 +34,18 @@ header {
   top: 0;
   right: 0;
   left: 0;
+}
+
+/* Main */
+
+/* Section Jumbotron */
+.jumbotron {
+  min-height: 570px;
+  background-color: #00439B;
+  color: white;
+  padding-top: 285px
+}
+
+.jumbotron img {
+  width: 60%;
 }
