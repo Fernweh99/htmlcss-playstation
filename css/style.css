@@ -90,6 +90,26 @@ header {
   background-color: var(--bg-ps-plus);
 }
 
+/* Section new discount */
+#new-discount {
+  min-height: 300px;
+}
+
+/* Section ps now */
+#ps-now {
+  background-color: var(--bg-ps-now);
+  min-height: 300px;
+}
+
+/* section follow us */
+
+/* Footer */
+footer {
+  min-height: 300px;
+  padding: 50px 0;
+  background-color: var(--bg-footer);
+}
+
 /***************************************
 *************** RESPONSIVE *************
 ++++++++++++++++++++++++++++++++++++++**/
@@ -101,6 +121,10 @@ header {
 @media screen and (min-width: 768px) {
   .row > .col.img {
     display: block;
+  }
+
+  #follow-us .col {
+    width: 140px;
   }
 }
 
