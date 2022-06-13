@@ -28,6 +28,10 @@ body {
   padding-top: 106px;;
 }
 
+section {
+  padding: 50px 0;
+}
+
 /* Header */
 .upper-header img {
   height: 14px;
@@ -45,17 +49,29 @@ header {
 
 /* Section Jumbotron */
 .jumbotron {
-  min-height: 570px;
+  height: 570px;
+  padding: 50px 0;
   background-color: #00439B;
   color: white;
-  padding-top: 285px
 }
 
 .jumbotron img {
   width: 60%;
 }
 
+/* Section games jumbotron */
+#games-jumbotron {
+  padding: 20px 0;
+}
+
+/* Section explore */
 #explore-ps5 {
   min-height: 400px;
   background-color: #161C3B;
+}
+
+/* Section new entry */
+#new-entry {
+  background-color: #1f1f1f;
+  min-height: 400px;
 }
