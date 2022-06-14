@@ -25,7 +25,6 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 section {
@@ -52,7 +51,6 @@ header {
 
 header .cs-btn {
   background-color: var(--btn-bg-header);
-  color: white;
 }
 
 /* Main */
