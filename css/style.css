@@ -55,7 +55,7 @@ header .cs-btn {
 
 /* Section Jumbotron */
 .jumbotron {
-  height: 570px;
+  height: 580px;
   padding: 50px 0;
   color: white;
 }
@@ -66,11 +66,17 @@ header .cs-btn {
 }
 
 .jumbotron img {
-  width: 60%;
+  width: 55%;
 }
 
 #jumbotron-main {
   background-image: url(../img/jumbo-bg.png);
+  background-position: center top;
+  background-size: cover;
+}
+
+#jumbotron-secondary {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center top;
   background-size: cover;
 }
