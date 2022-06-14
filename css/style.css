@@ -111,6 +111,13 @@ header {
 }
 
 /* Section games jumbotron */
+#games-jumbotron .active {
+  width: 100%;
+  height: auto;
+  padding: 3px;
+  border: 2px solid #0072CD;
+}
+
 #games-jumbotron {
   padding: 30px 0;
 }
@@ -133,6 +140,7 @@ header {
   background-color: var(--btn-bg-explore);
 }
 
+/* Section explore ps5 */
 #explore-ps5 p.motto{
   font-size: 15px;
   color: #4B96DA;
@@ -141,6 +149,12 @@ header {
 
 #explore-ps5 .item-ps5 {
   filter: opacity(0.6);
+  padding-bottom: 10px;
+}
+
+#explore-ps5 .item-ps5.active {
+  filter: opacity(1);
+  border-bottom: 2px solid #0072CD;
 }
 
 #explore-ps5 .item-ps5 h3{
