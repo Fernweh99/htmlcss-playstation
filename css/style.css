@@ -142,7 +142,8 @@ header {
 
 #explore-ps5 .item-ps5 {
   filter: opacity(0.6);
-  padding-bottom: 10px;
+  display: inline-block;
+  height: 100%;
 }
 
 #explore-ps5 .item-ps5.active {
@@ -251,6 +252,11 @@ footer .reg {
   transform: translateY(-20%);
 }
 
+/* Explore ps5 */
+#explore-ps5 .item-ps5:hover {
+  filter: opacity(1);
+  border-bottom: 2px solid #0072CD;
+}
 
 /***************************************
 *************** RESPONSIVE *************
