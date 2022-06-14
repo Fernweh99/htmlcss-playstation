@@ -171,6 +171,38 @@ footer {
   background-color: var(--bg-footer);
 }
 
+footer img.language {
+  width: 20px;
+}
+
+footer img.sie {
+  width: 150px;
+}
+
+footer img.logo {
+  width: 140px;
+  filter: brightness(0) invert(1);
+}
+
+footer .cont-img {
+  width: 140px;
+  position: relative;
+}
+
+footer a {
+  display: block;
+  line-height: 35px;
+}
+
+footer .reg {
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: lighter;
+}
+
 /***************************************
 *************** RESPONSIVE *************
 ++++++++++++++++++++++++++++++++++++++**/
