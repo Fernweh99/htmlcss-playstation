@@ -13,8 +13,8 @@
   /* TODO Remove */
   border: 1px solid black;
 
-  border-radius: 15px;
-  padding: 5px;
+  border-radius: 25px;
+  padding: 5px 10px;
 }
 
 .row > [class^="col"] {
@@ -46,6 +46,11 @@ header {
   top: 0;
   right: 0;
   left: 0;
+}
+
+header .cs-btn {
+  background-color: var(--btn-bg-header);
+  color: white;
 }
 
 /* Main */
