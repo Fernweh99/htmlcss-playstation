@@ -42,7 +42,8 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
+  box-shadow: 1px 2px 1px gray;
 }
 
 header .cs-btn {
@@ -56,6 +57,23 @@ header .cs-btn {
   height: 580px;
   padding: 50px 0;
   color: white;
+  position: relative;
+}
+
+.jumbotron::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  filter: opacity(0.3);
+}
+
+.jumbotron .row {
+  position: relative;
+  z-index: 1;
 }
 
 .jumbotron .cs-btn {
@@ -166,7 +184,6 @@ header .cs-btn {
 
 /* Footer */
 footer {
-  min-height: 300px;
   padding: 50px 0;
   background-color: var(--bg-footer);
 }
