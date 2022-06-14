@@ -44,10 +44,6 @@ img {
   top: 5px;
 }
 
-.nav-item:hover .dropdown-toggle::after {
-  filter:invert(1);
-}
-
 header {
   background-color: black;
   position: fixed;
@@ -118,12 +114,9 @@ header {
   border: 2px solid #0072CD;
 }
 
-#games-jumbotron {
-  padding: 30px 0;
-}
-
 #games-jumbotron img{
   border-radius: 22px;
+  transition: transform 0.5s;
 }
 
 /* Section explore */
@@ -246,6 +239,18 @@ footer .reg {
   color: white;
   font-weight: lighter;
 }
+
+/* Effect */
+/* Header */
+.nav-item:hover .dropdown-toggle::after {
+  filter:invert(1);
+}
+
+/* Jumbo games */
+#games-jumbotron a:hover img{
+  transform: translateY(-20%);
+}
+
 
 /***************************************
 *************** RESPONSIVE *************
