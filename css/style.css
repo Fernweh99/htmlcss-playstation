@@ -36,6 +36,18 @@ img {
   width: 100%;
 }
 
+.dropdown-toggle::after {
+  border: 0;
+  content: url(../img/chevron-down-solid.svg);
+  width: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.nav-item:hover .dropdown-toggle::after {
+  filter:invert(1);
+}
+
 header {
   background-color: black;
   position: fixed;
