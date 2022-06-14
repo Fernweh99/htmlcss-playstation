@@ -58,8 +58,9 @@ header {
   box-shadow: 1px 2px 1px gray;
 }
 
-header .cs-btn {
+.navbar-expand-lg .navbar-nav .nav-link.cs-btn {
   background-color: var(--btn-bg-header);
+  padding: 10px 15px;
 }
 
 /* Main */
