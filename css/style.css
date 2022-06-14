@@ -153,10 +153,15 @@ header .cs-btn {
   background-color: var(--bg-ps-now);
 }
 
+#ps-now .cs-btn {
+  background-color: #F5F5F5;
+}
 
 /* Section new discount */
-#new-discount {
-  min-height: 300px;
+#new-discount p{
+  font-size: 20px;
+  color: gray;
+  font-weight: 500;
 }
 
 /* section follow us */
