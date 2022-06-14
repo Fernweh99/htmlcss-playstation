@@ -10,11 +10,8 @@
 
 /* Utils */
 .cs-btn {
-  /* TODO Remove */
-  border: 1px solid black;
-
   border-radius: 25px;
-  padding: 5px 10px;
+  padding: 10px 15px; 
   text-decoration: none;
 }
 
@@ -60,7 +57,6 @@ header .cs-btn {
 .jumbotron {
   height: 570px;
   padding: 50px 0;
-  background-color: #00439B;
   color: white;
 }
 
@@ -89,9 +85,29 @@ header .cs-btn {
 }
 
 /* Section explore ps5 */
-#explore-ps5 {
-  min-height: 400px;
-  background-color: #161C3B;
+#explore-ps5 p{
+  font-size: 20px;
+  color: gray;
+  font-weight: 500;
+}
+
+#explore-ps5 p.motto{
+  font-size: 15px;
+  color: #4B96DA;
+  font-weight: 500;
+}
+
+#explore-ps5 .cs-btn {
+  color: white;
+  background-color: var(--btn-bg-explore);
+}
+
+#explore-ps5 .item-ps5 {
+  filter: opacity(0.6);
+}
+
+#explore-ps5 .item-ps5 h3{
+  display: none;
 }
 
 /* Section new entry */
@@ -146,6 +162,11 @@ footer {
 
   #follow-us .col {
     width: 140px;
+  }
+
+  #explore-ps5 .item-ps5 h3{
+    display: block;
+    margin-top: 5px;
   }
 }
 
