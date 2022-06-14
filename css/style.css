@@ -15,11 +15,7 @@
 
   border-radius: 25px;
   padding: 5px 10px;
-}
-
-.row > [class^="col"] {
-  border: 1px solid darkorange;
-  min-height: 40px;
+  text-decoration: none;
 }
 
 .row > .col.img {
@@ -46,6 +42,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
+  z-index: 1;
 }
 
 header .cs-btn {
@@ -63,8 +60,19 @@ header .cs-btn {
   color: white;
 }
 
+.jumbotron .cs-btn {
+  color: white;
+  background-color: var(--btn-bg-jumbotron);
+}
+
 .jumbotron img {
   width: 60%;
+}
+
+#jumbotron-main {
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center top;
+  background-size: cover;
 }
 
 /* Section games jumbotron */
