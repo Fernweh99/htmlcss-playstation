@@ -92,22 +92,24 @@ header .cs-btn {
   border-radius: 22px;
 }
 
-/* Section explore ps5 */
-#explore-ps5 p{
+/* Section explore */
+#explore-ps5 p,
+#explore-ps4 p{
   font-size: 20px;
   color: gray;
   font-weight: 500;
+}
+
+#explore-ps5 .cs-btn,
+#explore-ps4 .cs-btn {
+  color: white;
+  background-color: var(--btn-bg-explore);
 }
 
 #explore-ps5 p.motto{
   font-size: 15px;
   color: #4B96DA;
   font-weight: 500;
-}
-
-#explore-ps5 .cs-btn {
-  color: white;
-  background-color: var(--btn-bg-explore);
 }
 
 #explore-ps5 .item-ps5 {
@@ -125,11 +127,6 @@ header .cs-btn {
 
 #new-entry img{
   border-radius: 22px;
-}
-
-/* Section explore ps4 */
-#explore-ps4 {
-  min-height: 400px;
 }
 
 /* Section ps plus */
