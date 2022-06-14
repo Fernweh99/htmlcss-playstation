@@ -111,12 +111,17 @@ header {
   width: 100%;
   height: auto;
   padding: 3px;
+  border-radius: 25px;
   border: 2px solid #0072CD;
+}
+
+#games-jumbotron a {
+  display: inline-block;
+  transition: transform 0.5s;
 }
 
 #games-jumbotron img{
   border-radius: 22px;
-  transition: transform 0.5s;
 }
 
 /* Section explore */
@@ -248,8 +253,8 @@ footer .reg {
 }
 
 /* Jumbo games */
-#games-jumbotron a:hover img{
-  transform: translateY(-20%);
+#games-jumbotron a:hover{
+  transform: translateY(-15%);
 }
 
 /* Explore ps5 */
