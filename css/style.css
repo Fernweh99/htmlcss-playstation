@@ -30,6 +30,7 @@ section {
 /* Header */
 .upper-header img {
   height: 14px;
+  width: auto;
 }
 
 img {
