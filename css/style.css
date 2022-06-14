@@ -12,7 +12,6 @@
 .cs-btn {
   border-radius: 25px;
   padding: 10px 15px; 
-  text-decoration: none;
 }
 
 .row > .col.img {
@@ -22,6 +21,11 @@
 /* Generics */
 body {
   padding-top: 106px;;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 section {
@@ -119,7 +123,10 @@ header .cs-btn {
 /* Section new entry */
 #new-entry {
   background-color: #1f1f1f;
-  min-height: 400px;
+}
+
+#new-entry img{
+  border-radius: 22px;
 }
 
 /* Section explore ps4 */
