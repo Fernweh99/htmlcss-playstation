@@ -64,9 +64,11 @@ header {
 
 /* Section Jumbotron */
 .jumbotron {
-  height: 580px;
+  min-height: 580px;
   padding: 50px 0;
   color: white;
+  background-position: center top;
+  background-size: cover;
   position: relative;
 }
 
@@ -97,14 +99,11 @@ header {
 
 #jumbotron-main {
   background-image: url(../img/jumbo-bg.png);
-  background-position: center top;
-  background-size: cover;
+  height: 580px;
 }
 
 #jumbotron-secondary {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-  background-position: center top;
-  background-size: cover;
 }
 
 /* Section games jumbotron */
@@ -176,8 +175,8 @@ header {
   width: 55%;
 }
 
-#ps-plus .col.img,
-#ps-now .col.img {
+#ps-plus .col.image img,
+#ps-now .col.image img {
   display: none;
 }
 
@@ -273,8 +272,8 @@ footer .reg {
 }
 
 @media screen and (min-width: 768px) {
-  #ps-plus .col.img,
-  #ps-now .col.img {
+  #ps-plus .col.image img,
+  #ps-now .col.image img {
     display: block;
   }
 
