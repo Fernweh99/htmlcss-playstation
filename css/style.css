@@ -151,6 +151,7 @@ header {
   filter: opacity(0.6);
   display: inline-block;
   height: 100%;
+  border-bottom: 2px solid transparent;
 }
 
 #explore-ps5 .item-ps5.active {
@@ -262,7 +263,7 @@ footer .reg {
 /* Explore ps5 */
 #explore-ps5 .item-ps5:hover {
   filter: opacity(1);
-  border-bottom: 2px solid #0072CD;
+  border-color:#0072CD;
 }
 
 /* Navbar JS */
