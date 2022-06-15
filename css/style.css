@@ -13,12 +13,12 @@
 .cs-btn {
   display: inline-block;
   border-radius: 25px;
-  padding: 10px 15px; 
+  padding: 7px 15px;
 }
 
 /* Generics */
 body {
-  padding-top: 106px;;
+  padding-top: 106px;
 }
 
 a {
@@ -277,6 +277,43 @@ footer .reg {
   width: 65%;
   margin: 0 auto;
 }
+
+/* Button */
+.box-btn {
+  display: inline-block;
+  padding: 2px;
+  border-radius: 25px;
+}
+
+.jumbotron .box-btn {
+  background-color: var(--btn-bg-jumbotron);
+}
+
+#explore-ps5 .box-btn,
+#explore-ps4 .box-btn {
+  background-color: var(--btn-bg-explore);
+}
+
+#ps-plus .box-btn,
+#ps-now .box-btn {
+  background-color: #D9DADC;
+}
+
+.cs-btn:hover {
+  padding: 5px 13px;
+}
+
+.jumbotron .cs-btn:hover,
+#ps-plus .cs-btn:hover,
+#ps-now .cs-btn:hover {
+  border: 2px solid black;
+}
+
+#explore-ps5 .cs-btn:hover,
+#explore-ps4 .cs-btn:hover {
+  border: 2px solid white;
+}
+
 
 /***************************************
 *************** RESPONSIVE *************
