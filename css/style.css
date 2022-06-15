@@ -6,10 +6,12 @@
   --bg-footer: #00439B;
   --bg-ps-plus: #BEBCBB;
   --bg-ps-now: #161C3B;
+  --bg-navbar: #F8F9FA;
 }
 
 /* Utils */
 .cs-btn {
+  display: inline-block;
   border-radius: 25px;
   padding: 10px 15px; 
 }
@@ -34,7 +36,7 @@ section {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .dropdown-toggle::after {
@@ -261,6 +263,19 @@ footer .reg {
 #explore-ps5 .item-ps5:hover {
   filter: opacity(1);
   border-bottom: 2px solid #0072CD;
+}
+
+/* Navbar JS */
+.dropdown-menu {
+  border: 0;
+  background-color: var(--bg-navbar);
+  text-align: center;
+}
+
+.dropdown-menu img{
+  display: block;
+  width: 65%;
+  margin: 0 auto;
 }
 
 /***************************************
